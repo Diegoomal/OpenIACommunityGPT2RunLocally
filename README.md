@@ -4,25 +4,26 @@
 ## Configure environment
 
 ```
+
 conda activate project-env
+
+conda deactivate
+ 
+```
+
+```
 
 conda env create -n project-env -f ./env.yml
 
 conda env update -n project-env -f ./env.yml
- 
+
 ```
 
 ## Download model
 
 ```
+
 python download_openai_community_model.py 124M
-```
-
-
-## Execute
-
-```
-python src/interactive_conditional_samples.py --model_name 774M --top_k 40 --length 256
 
 ```
 
@@ -30,7 +31,26 @@ python src/interactive_conditional_samples.py --model_name 774M --top_k 40 --len
 ## Execute
 
 ```
-ptyhon src/main.py
+
+python src/gh_ex/interactive_conditional_samples.py --model_name 774M --top_k 40 --length 256
+
+```
+
+
+## Execute
+
+```
+
+python src/main.ipynb
+
+```
+
+OR in the notebook:
+
+```
+
+src/main.ipynb
+
 ```
 
 
