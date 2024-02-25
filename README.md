@@ -27,15 +27,13 @@ python download_openai_community_model.py 124M
 
 ```
 
-
+<!--
 ## Execute
 
 ```
-
 python src/gh_ex/interactive_conditional_samples.py --model_name 774M --top_k 40 --length 256
-
 ```
-
+-->
 
 ## Execute
 
